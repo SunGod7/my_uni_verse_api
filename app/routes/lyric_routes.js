@@ -25,8 +25,8 @@ const removeBlanks = require('../../lib/remove_blank_fields')
 const requireToken = passport.authenticate('bearer', { session: false })
 
 // instantiate a router (mini app that only handles routes)
-const router = express.Router()
-let api = "https://api.lyrics.ovh/v1/?q="
+ const router = express.Router()
+// let api = "https://api.lyrics.ovh/v1/?q="
 
 
 
@@ -46,7 +46,7 @@ router.get('/lyrics', (req, res, next) => {
 })
 
 // SHOW
-router.get('/lyrics/:id', requireToken, (req, res, next) => {
+router.get('/lyrics/:id',  (req, res, next) => {
 
 	Lyric.findById(req.params.id)
 		.then(handle404)
