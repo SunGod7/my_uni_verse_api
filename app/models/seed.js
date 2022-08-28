@@ -88,7 +88,7 @@ F-R-EEEEE-A-K`},
 //  I can hear my grandma sayin', "Don't let me down"
 //  People wanna kill me, always keep my gun 'round
 //  Pray I squeeze first, I can't lose the millies I found`},
-//  {artist: "Ghost", title: "Mary on a Cross", img: ". /images/IMG-0721.jpg",
+//  {artist: "Ghost", title: "Mary on a Cross", img: ". /images/IMG-0726.jpg",
 //  lyrics:`[Pre-Chorus: Papa Nihil]
 //  You go down just like Holy Mary, Mary on a, Mary on a cross
 //  Not just another bloody Mary, Mary on a, Mary on a...
@@ -111,7 +111,7 @@ F-R-EEEEE-A-K`},
 //  Be runnin' up that hill
 //  Be runnin' up that buildin'
 //  Say, if I only could, oh`},
-//  {artist: "DJ Khaled & Juice WRLD", title: "Juice WRLD DID", img: ". /images/IMG-0721.jpg",
+//  {artist: "DJ Khaled Juice WRLD", title: "Juice WRLD DID", img: ". /images/IMG-0721.jpg",
 //  lyrics:`[Intro: DJ Khaled & Juice WRLD]
 //  We The Best Music
 //  They ain't believe in us
@@ -134,7 +134,7 @@ F-R-EEEEE-A-K`},
 //  Just a long and cold and scary
 //  But I don't even feel a thing no more
 //  I set my goals and I'm prepared (Look-look-look-look-look, uh, look, uh)`},
-//  {artist: "Queen", title: "Bohemian Rhapsody ", img: ". /images/IMG-0721.jpg",
+//  {artist: "Queen", title: "Bohemian Rhapsody ", img: ". /images/IMG-0727.jpg",
 //  lyrics:`[Intro]
 //  Is this the real life? Is this just fantasy?
 //  Caught in a landslide, no escape from reality
@@ -151,7 +151,7 @@ F-R-EEEEE-A-K`},
 //  Mama, ooh, didn't mean to make you cry
 //  If I'm not back again this time tomorrow
 //  Carry on, carry on as if nothing really matters`},
-//  {artist: "Future, Drake, & Tems", title: "WAIT FOR U", img: ". /images/IMG-0721.jpg",
+//  {artist: "Future, Drake, & Tems", title: "WAIT FOR U", img: ". /images/IMG-0742.jpg",
 //  lyrics:`[Intro: Future & Tems]
 //  I will wait for you, for you
 //  Early in the mornin', late at night (I will wait for you)

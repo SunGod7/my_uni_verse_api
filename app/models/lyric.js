@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 const commentSchema = require('./comment')
-const likeSchema = require('./like')
+//const likeSchema = require('./like')
 
 const { Schema, model } = mongoose
 const lyricSchema = new Schema(
@@ -16,7 +16,7 @@ const lyricSchema = new Schema(
         },
         img: {
             type: String,
-            required: true
+            //required: true
         },
 
 
@@ -30,7 +30,7 @@ const lyricSchema = new Schema(
         owner: {
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User',
-            // required: true,
+            //required: true,
         }
 
     },
