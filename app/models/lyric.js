@@ -15,7 +15,9 @@ const lyricSchema = new Schema(
             required: true
         },
         img: {
-            type: String,
+            type: String
+            // data: buffer,
+            // contentType: String
             //required: true
         },
 

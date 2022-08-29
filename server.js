@@ -1,6 +1,11 @@
 // require necessary NPM packages
 const express = require('express')
 const mongoose = require('mongoose')
+/////multer/////
+
+// const multer = require('multer')
+// const fs = require("fs")
+/////multer/////
 const cors = require('cors')
 
 // require route files
@@ -31,7 +36,26 @@ const clientDevPort = 3000
 mongoose.connect(db, {
 	useNewUrlParser: true,
 })
-
+/////////multer/////
+// const storage = multer.diskStorage({
+// 	destination: (req, file, cb) => {
+// 	  cb(null, "uploads");
+// 	},
+// 	filename: (req, file, cb) => {
+// 	  cb(null, file.originalname)
+// 	},
+//   });
+//   const upload = multer({ storage: storage })
+//   app.post("/", upload.single("testImage"), (req, res) => {
+// 	const saveImage =  imageModel({
+// 	  name: req.body.name,
+// 	  img: {
+// 		data: fs.readFileSync("uploads/" + req.file.filename),
+// 		contentType: "image/png",
+// 	  },
+// 	})
+// })
+/////multer/////
 // instantiate express application object
 const app = express()
 
