@@ -47,7 +47,7 @@ router.post('/comments/:lyricId', (req, res, next) => {
             // console.log('this is the comment: ', comment)
 
             // push the comment into the lyric's comments array
-            lyric.comments.push(req.body)
+            lyric.comments.push(req.body.note)
 
             // console.log('this is the lyric AFTER commenting: ', lyric)
 
@@ -66,7 +66,7 @@ router.patch('/comments/:lyricId/:commentId', requireToken, removeBlanks, (req, 
     const lyricId = req.params.lyricId
     const commentId = req.params.commentId
 
-    // console.log('Heres the new note: ', req.body.note)
+     console.log('Heres the new note: ', req.body.note)
 
     // find our lyric
     Lyric.findById(lyricId)
