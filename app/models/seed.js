@@ -203,6 +203,6 @@ mongoose.connect(db, {
     })
 
 
-
+//heroku run npm run seed//
 
 
