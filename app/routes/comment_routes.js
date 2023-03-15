@@ -32,7 +32,7 @@ router.get('/comments/:lyricId', (req, res, next) => {
 		.catch(next)
 })
 
-// Create 
+
 // POST /comments/<lyric_id>
 router.post('/comments/:lyricId', (req, res, next) => {
     // get comment from req.body
@@ -54,7 +54,7 @@ router.post('/comments/:lyricId', (req, res, next) => {
             return lyric.save()
 
         })
-        // send the newly updated lyric as json
+        // send  newly updated lyric as json
         .then(lyric => res.status(201).json({ lyric: lyric }))
         .catch(next)
 })
